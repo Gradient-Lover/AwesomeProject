@@ -78,7 +78,7 @@ export default function App() {
         <View style={styles.resultContainer}>
           <Text style={styles.resultText}>Clicks: {clicked}</Text>
           <Text style={styles.resultText}>CPS: {cps}</Text>
-          <Button onPress={handleReset} title="⬅BACK" style={styles.button} />
+          <Button onPress={handleReset} title="⬅Reset" style={styles.button} />
         </View>
       ) : (
         <>
